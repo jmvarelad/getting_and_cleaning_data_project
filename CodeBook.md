@@ -61,7 +61,7 @@ The goals of the project are the following:
 4. Appropriately labels the data set with descriptive activity names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## Description of ```run_analysis.R```
+## Description of the file run_analysis.R
 
 - Loads required libraries: dplyr and reshape2.
 - Loads test data into dataframes: x_test, y_test and subject_test.
