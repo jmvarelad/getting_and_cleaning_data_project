@@ -8,7 +8,6 @@
 #0. Preliminary steps
 #load required libraries
 library(dplyr)
-library(data.table)
 library(reshape2)
 
 #read test set
