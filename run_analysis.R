@@ -73,3 +73,6 @@ melt_data <- melt(data_joined, id = id_labels, measure.vars = data_labels)
 
 # Apply mean function to data_joined using dcast function
 tidy_data <- dcast(melt_data, Subject + Activity_name ~ variable, mean)
+
+#Export the data set
+write.table(tidy_data, file = "./tidy_data.txt", row.name=FALSE)
