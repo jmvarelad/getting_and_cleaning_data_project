@@ -9,6 +9,7 @@
 #load required libraries
 library(dplyr)
 library(data.table)
+library(reshape2)
 
 #read test set
 x_test <- read.delim("./test/X_test.txt", header = FALSE, sep = "", dec = ".")
